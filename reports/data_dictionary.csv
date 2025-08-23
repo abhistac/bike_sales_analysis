@@ -1,0 +1,12 @@
+column,dtype,non_null,null_%,unique,sample_values
+Sale_ID,int64,100000,0.0,100000,1; 2; 3; 4; 5
+Date,object,100000,0.0,1727,11-07-2022; 03-05-2024; 01-09-2022; 28-09-2022; 05-01-2021
+Customer_ID,int64,100000,0.0,9000,9390; 3374; 2689; 3797; 1633
+Bike_Model,object,100000,0.0,7,Cruiser; Hybrid Bike; Folding Bike; Mountain Bike; BMX
+Price,float64,100000,0.0,90336,318.32; 3093.47; 4247.99; 1722.01; 3941.44
+Quantity,int64,100000,0.0,5,1; 4; 3; 5; 2
+Store_Location,object,100000,0.0,7,Philadelphia; Chicago; San Antonio; Los Angeles; Houston
+Salesperson_ID,int64,100000,0.0,900,589; 390; 338; 352; 580
+Payment_Method,object,100000,0.0,6,Apple Pay; PayPal; Google Pay; Debit Card; Credit Card
+Customer_Age,int64,100000,0.0,53,70; 37; 59; 19; 67
+Customer_Gender,object,100000,0.0,2,Female; Male

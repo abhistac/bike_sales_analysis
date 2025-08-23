@@ -1,0 +1,201 @@
+Sale_ID,Date,Customer_ID,Bike_Model,Price,Quantity,Store_Location,Salesperson_ID,Payment_Method,Customer_Age,Customer_Gender
+1,11-07-2022,9390,Cruiser,318.32,1,Philadelphia,589,Apple Pay,70,Female
+2,03-05-2024,3374,Hybrid Bike,3093.47,4,Chicago,390,Apple Pay,37,Male
+3,01-09-2022,2689,Folding Bike,4247.99,3,San Antonio,338,PayPal,59,Female
+4,28-09-2022,3797,Mountain Bike,1722.01,3,San Antonio,352,Apple Pay,19,Male
+5,05-01-2021,1633,BMX,3941.44,3,Philadelphia,580,PayPal,67,Female
+6,06-09-2021,9663,Mountain Bike,1778.12,5,Chicago,829,Google Pay,42,Male
+7,08-06-2020,6049,Hybrid Bike,1513.6,4,Philadelphia,916,Google Pay,20,Male
+8,22-08-2021,5784,Road Bike,3825.94,1,Philadelphia,291,Debit Card,57,Male
+9,04-10-2020,9649,Road Bike,614.94,3,San Antonio,906,Debit Card,62,Male
+10,22-03-2023,3977,Electric Bike,2707.4,5,Los Angeles,562,PayPal,65,Male
+11,14-08-2022,3879,Road Bike,3350.94,4,Houston,296,Debit Card,41,Male
+12,11-04-2022,1762,Cruiser,2751.96,3,New York,832,Google Pay,27,Female
+13,04-04-2021,9079,Folding Bike,2087.23,1,Los Angeles,194,Apple Pay,46,Female
+14,03-10-2022,9754,BMX,1801.14,2,San Antonio,811,Apple Pay,45,Male
+15,25-01-2021,8199,Cruiser,1326.01,5,Chicago,889,Credit Card,36,Male
+16,08-02-2020,1773,BMX,2187.63,2,San Antonio,455,PayPal,25,Male
+17,12-11-2021,7868,Folding Bike,732.01,4,Los Angeles,806,PayPal,59,Male
+18,11-09-2021,3357,Cruiser,2646.24,3,Houston,663,Cash,21,Male
+19,07-03-2022,4981,Hybrid Bike,1575.04,3,New York,416,Google Pay,53,Female
+20,08-02-2020,8184,Hybrid Bike,1969.76,4,New York,386,Google Pay,51,Male
+21,07-05-2021,4757,Electric Bike,1182.31,3,New York,725,PayPal,41,Female
+22,05-06-2023,3344,Cruiser,4747.34,5,Los Angeles,865,Cash,68,Male
+23,27-06-2022,3559,Mountain Bike,348.81,3,Philadelphia,502,Cash,55,Female
+24,31-10-2020,8018,Cruiser,2816.85,5,New York,682,Google Pay,29,Male
+25,07-04-2024,7030,BMX,1099.15,4,San Antonio,924,Debit Card,54,Male
+26,07-02-2022,1209,Mountain Bike,591.21,2,Phoenix,878,PayPal,30,Male
+27,21-09-2021,8072,Mountain Bike,1958.22,3,Philadelphia,933,Credit Card,25,Female
+28,25-11-2022,9164,Hybrid Bike,4181.42,4,Phoenix,346,Google Pay,36,Female
+29,17-07-2023,5981,Hybrid Bike,3186.93,2,Philadelphia,209,Google Pay,29,Female
+30,27-11-2022,7201,BMX,4897.8,1,Philadelphia,117,Apple Pay,28,Male
+31,24-04-2024,5301,Folding Bike,4141.54,1,New York,404,Apple Pay,43,Female
+32,16-06-2023,7037,Cruiser,2970.31,5,Philadelphia,897,Apple Pay,59,Male
+33,06-01-2020,5757,Hybrid Bike,1064.37,2,Phoenix,117,Cash,47,Male
+34,05-09-2020,1215,Cruiser,270.78,5,New York,938,PayPal,46,Female
+35,27-01-2023,3148,BMX,4885.14,3,New York,782,PayPal,18,Female
+36,23-10-2021,5053,Cruiser,2276.31,2,Los Angeles,160,Google Pay,23,Male
+37,26-05-2021,2849,Hybrid Bike,4234.49,2,Phoenix,747,Cash,41,Female
+38,14-02-2022,8004,BMX,4448.18,2,Phoenix,680,Debit Card,44,Male
+39,14-06-2020,5802,Folding Bike,4188.82,1,Los Angeles,926,Credit Card,46,Male
+40,28-03-2021,1602,Folding Bike,2611.56,2,New York,655,Apple Pay,21,Male
+41,21-12-2020,2693,Mountain Bike,3454.15,1,Philadelphia,708,PayPal,37,Female
+42,24-11-2022,2554,BMX,4617.56,4,Phoenix,766,Debit Card,36,Male
+43,01-09-2024,4677,Mountain Bike,1812.26,2,Houston,393,Cash,40,Male
+44,17-09-2021,6716,Mountain Bike,1959.85,3,Chicago,175,PayPal,38,Female
+45,03-08-2021,6791,Mountain Bike,4161.05,4,San Antonio,883,PayPal,28,Male
+46,22-09-2021,7356,Mountain Bike,1261.89,5,Los Angeles,506,Credit Card,37,Female
+47,23-01-2024,9785,BMX,2189.68,3,Los Angeles,389,PayPal,28,Female
+48,14-06-2022,1097,Hybrid Bike,1614.07,2,San Antonio,725,Cash,43,Male
+49,17-08-2022,6046,Folding Bike,724.25,4,Los Angeles,766,Apple Pay,54,Female
+50,17-04-2022,7319,Electric Bike,2703.48,2,San Antonio,826,Google Pay,53,Female
+51,06-03-2024,1983,Hybrid Bike,3362.4,1,Los Angeles,315,Debit Card,22,Female
+52,14-11-2022,9552,Road Bike,2296.64,3,New York,825,Cash,29,Female
+53,12-08-2021,8543,Road Bike,3716.82,3,Houston,336,Debit Card,57,Male
+54,07-07-2023,8173,Cruiser,4491.92,2,Los Angeles,324,PayPal,31,Male
+55,05-10-2022,3104,Folding Bike,2229.03,3,San Antonio,291,Cash,42,Male
+56,26-07-2020,9651,Folding Bike,3687.35,2,Chicago,621,Apple Pay,33,Male
+57,02-04-2022,9123,Electric Bike,2845.33,5,Los Angeles,534,Google Pay,32,Male
+58,07-04-2023,7956,Cruiser,4650.37,4,Philadelphia,632,Cash,47,Female
+59,24-01-2021,1672,Electric Bike,4521.32,1,New York,252,Debit Card,44,Male
+60,17-04-2023,2050,Cruiser,599.68,1,Los Angeles,503,PayPal,49,Female
+61,25-09-2023,5338,Cruiser,4882.87,3,Houston,521,Debit Card,60,Male
+62,26-10-2020,4277,Mountain Bike,3481.35,4,New York,679,PayPal,65,Male
+63,06-10-2021,7707,Road Bike,447.62,5,Houston,104,Apple Pay,34,Female
+64,27-03-2020,3917,Mountain Bike,2607.09,1,Houston,432,Apple Pay,50,Male
+65,11-08-2023,8891,Hybrid Bike,3167.84,2,San Antonio,552,PayPal,62,Male
+66,15-09-2024,5817,BMX,3690.47,4,Philadelphia,515,PayPal,66,Male
+67,11-05-2020,2805,Road Bike,1121.19,4,New York,406,Debit Card,40,Female
+68,13-04-2020,8183,Mountain Bike,487.62,4,Philadelphia,478,Google Pay,19,Male
+69,09-07-2020,7033,Hybrid Bike,3761.62,5,Houston,288,Apple Pay,59,Female
+70,23-01-2023,5757,Electric Bike,2921.16,5,Phoenix,473,Debit Card,65,Male
+71,01-05-2023,1503,Road Bike,3360.87,5,Philadelphia,557,Cash,33,Female
+72,31-05-2023,5707,Hybrid Bike,3340.64,4,Philadelphia,917,Debit Card,24,Male
+73,01-01-2020,3495,Road Bike,3617.52,1,Philadelphia,485,Cash,53,Male
+74,07-02-2023,2401,Cruiser,888.34,1,Philadelphia,304,Credit Card,32,Male
+75,20-09-2021,3519,Folding Bike,1334.89,3,New York,906,Cash,19,Male
+76,02-07-2024,6407,Mountain Bike,3122.5,5,Chicago,336,Apple Pay,61,Male
+77,08-06-2022,9534,Road Bike,1686.31,4,Houston,528,Debit Card,38,Male
+78,23-01-2023,8374,Hybrid Bike,2531.0,1,San Antonio,346,Credit Card,34,Female
+79,04-08-2021,6132,Cruiser,3382.52,1,San Antonio,787,Credit Card,22,Female
+80,21-09-2021,5736,Road Bike,2671.27,2,Philadelphia,248,Cash,65,Female
+81,12-06-2020,9972,BMX,3337.3,5,Philadelphia,404,Debit Card,46,Female
+82,18-05-2023,3022,Electric Bike,1770.57,4,Chicago,518,Debit Card,64,Male
+83,18-08-2023,2444,Electric Bike,2986.96,5,Philadelphia,612,PayPal,63,Male
+84,29-06-2024,8722,Cruiser,2834.1,2,Chicago,782,Credit Card,26,Male
+85,02-08-2024,3617,Folding Bike,3623.45,2,San Antonio,449,Credit Card,28,Male
+86,06-10-2021,4118,Cruiser,2010.95,4,Phoenix,779,Credit Card,70,Male
+87,08-02-2020,8849,Folding Bike,608.93,3,Phoenix,452,Credit Card,23,Male
+88,27-07-2021,4281,Road Bike,727.49,1,Philadelphia,849,Apple Pay,62,Female
+89,14-08-2024,9422,Folding Bike,638.16,2,Philadelphia,480,PayPal,58,Male
+90,05-02-2020,4849,BMX,1557.08,4,Chicago,995,Credit Card,54,Female
+91,06-09-2022,8937,Road Bike,2775.14,3,Chicago,401,Apple Pay,56,Male
+92,06-07-2024,9035,Electric Bike,2234.4,2,New York,977,PayPal,59,Female
+93,10-12-2021,3144,Electric Bike,1803.99,2,San Antonio,405,Apple Pay,23,Female
+94,19-11-2022,6698,Cruiser,1924.91,4,Philadelphia,453,Google Pay,25,Female
+95,04-02-2023,9046,Folding Bike,661.28,5,Philadelphia,213,Debit Card,70,Female
+96,08-05-2020,5487,Hybrid Bike,4504.65,1,Philadelphia,629,Cash,70,Male
+97,21-02-2020,2644,Electric Bike,1548.33,3,Phoenix,961,Apple Pay,70,Female
+98,13-11-2023,9984,Mountain Bike,227.98,2,Chicago,536,Credit Card,70,Female
+99,06-02-2024,5912,BMX,3580.44,1,Phoenix,299,Credit Card,36,Female
+100,13-09-2020,5259,Hybrid Bike,1672.77,3,Chicago,947,Google Pay,27,Female
+101,26-03-2021,6324,Road Bike,3982.89,1,Phoenix,462,PayPal,44,Female
+102,14-10-2021,6359,Hybrid Bike,4497.57,2,Houston,572,Cash,19,Female
+103,30-08-2023,4450,Hybrid Bike,1767.21,4,New York,982,Apple Pay,21,Female
+104,26-10-2022,8115,BMX,2244.59,4,Phoenix,525,Credit Card,53,Female
+105,27-11-2020,8520,Folding Bike,242.79,4,Houston,885,Google Pay,58,Male
+106,29-04-2022,3743,BMX,4826.21,4,New York,272,PayPal,32,Male
+107,05-07-2022,1757,Cruiser,3619.29,5,Chicago,838,Apple Pay,47,Female
+108,16-07-2022,8531,Cruiser,4710.42,1,New York,847,PayPal,47,Female
+109,31-10-2020,9445,Mountain Bike,3579.78,3,New York,423,Apple Pay,49,Female
+110,11-10-2020,9024,Folding Bike,2469.39,3,Philadelphia,499,Debit Card,62,Male
+111,29-06-2022,1707,BMX,3128.86,2,Los Angeles,944,Google Pay,52,Female
+112,06-11-2021,2473,Cruiser,4610.91,3,Philadelphia,647,Apple Pay,33,Male
+113,10-04-2020,3843,Folding Bike,1422.01,3,Houston,733,Credit Card,56,Female
+114,04-10-2022,9383,Mountain Bike,4116.38,4,Phoenix,761,PayPal,65,Male
+115,28-10-2021,9700,Road Bike,2690.59,4,New York,145,Debit Card,26,Female
+116,20-04-2023,6925,Electric Bike,3231.44,4,San Antonio,709,Cash,43,Male
+117,01-06-2023,8153,BMX,3284.69,1,New York,618,Cash,61,Female
+118,11-08-2021,2662,BMX,3270.99,2,San Antonio,375,Credit Card,53,Female
+119,25-06-2021,4113,Hybrid Bike,1586.87,4,Houston,379,Cash,70,Male
+120,16-06-2022,4152,Hybrid Bike,1957.72,2,Phoenix,360,PayPal,54,Female
+121,25-10-2021,1804,BMX,2829.23,2,Phoenix,933,Credit Card,64,Male
+122,26-05-2021,7698,Folding Bike,2259.03,4,Los Angeles,271,PayPal,24,Female
+123,05-10-2023,2586,Electric Bike,326.14,1,San Antonio,763,Debit Card,60,Female
+124,03-01-2023,5680,Road Bike,1346.33,4,San Antonio,878,Apple Pay,47,Female
+125,14-03-2022,3874,Cruiser,3254.49,5,Phoenix,745,Apple Pay,30,Male
+126,19-06-2023,1817,Hybrid Bike,2380.58,4,Houston,909,Credit Card,54,Male
+127,13-06-2024,3464,Electric Bike,2274.67,2,San Antonio,598,PayPal,21,Male
+128,21-09-2021,2717,Hybrid Bike,2257.32,2,San Antonio,117,Cash,25,Male
+129,19-05-2020,6019,Road Bike,783.31,3,Chicago,654,Credit Card,34,Female
+130,08-01-2020,2200,Mountain Bike,874.62,5,New York,196,Debit Card,18,Female
+131,01-05-2023,1215,BMX,2659.28,2,Los Angeles,712,PayPal,61,Male
+132,21-11-2021,6688,Hybrid Bike,533.51,1,Houston,282,Apple Pay,24,Female
+133,24-12-2020,8491,Hybrid Bike,4867.16,4,New York,494,Credit Card,21,Male
+134,29-04-2022,3629,BMX,1321.74,1,Phoenix,955,Apple Pay,30,Male
+135,25-07-2024,2660,Road Bike,4002.62,2,Philadelphia,631,Cash,21,Female
+136,12-04-2023,3491,Road Bike,2646.05,3,Phoenix,429,PayPal,41,Male
+137,07-02-2023,2914,Hybrid Bike,1209.19,3,Houston,700,Credit Card,45,Male
+138,04-02-2022,6212,Cruiser,1354.08,2,Phoenix,861,Credit Card,35,Female
+139,30-10-2023,4463,Folding Bike,1652.44,2,San Antonio,419,Debit Card,56,Female
+140,24-10-2023,3044,Hybrid Bike,1241.87,1,Houston,412,Cash,60,Male
+141,30-06-2024,2357,Cruiser,1151.75,5,Philadelphia,845,PayPal,66,Female
+142,12-07-2020,3456,Folding Bike,2801.12,4,Chicago,136,Debit Card,29,Female
+143,18-11-2021,5825,Electric Bike,2352.45,1,Philadelphia,273,Credit Card,28,Male
+144,10-09-2022,1418,Road Bike,3652.29,4,Los Angeles,120,Google Pay,43,Female
+145,28-04-2024,1863,Cruiser,1909.79,2,Chicago,741,PayPal,33,Male
+146,03-03-2020,2135,Cruiser,1399.37,2,Chicago,131,Google Pay,70,Female
+147,09-03-2023,9753,BMX,2115.28,1,Los Angeles,756,Cash,25,Male
+148,28-11-2023,9559,Electric Bike,3577.98,1,Philadelphia,577,Apple Pay,60,Male
+149,28-01-2023,1745,BMX,918.64,3,Philadelphia,965,Credit Card,54,Male
+150,25-06-2021,8826,Hybrid Bike,3458.87,4,Chicago,807,Debit Card,46,Male
+151,06-11-2021,3183,Electric Bike,2624.71,4,Philadelphia,692,Debit Card,37,Female
+152,09-08-2020,1704,BMX,853.88,5,Houston,864,Apple Pay,33,Male
+153,10-10-2020,1063,Electric Bike,2776.79,3,Chicago,496,Google Pay,43,Female
+154,13-09-2023,3315,Cruiser,4843.8,1,New York,977,Google Pay,34,Male
+155,10-07-2021,5618,Folding Bike,4594.12,4,Los Angeles,864,PayPal,38,Male
+156,03-03-2023,7284,Electric Bike,1661.19,4,Philadelphia,729,Debit Card,24,Male
+157,17-09-2020,8642,Mountain Bike,4041.34,5,New York,898,Debit Card,53,Male
+158,27-05-2021,4066,Mountain Bike,747.63,1,Phoenix,383,Debit Card,43,Female
+159,20-08-2022,6874,Folding Bike,3392.71,1,San Antonio,797,Cash,59,Female
+160,22-03-2021,4491,Electric Bike,2963.39,2,Los Angeles,513,Apple Pay,21,Female
+161,18-08-2021,2283,Road Bike,4290.82,5,Phoenix,843,Google Pay,56,Female
+162,16-07-2023,5258,Cruiser,579.97,1,Chicago,930,Cash,64,Male
+163,17-07-2023,9230,Mountain Bike,4021.76,2,Houston,686,Debit Card,37,Male
+164,02-03-2021,2316,Electric Bike,3982.45,2,Houston,607,Apple Pay,61,Female
+165,29-02-2024,1282,Folding Bike,984.65,5,Chicago,344,PayPal,69,Female
+166,09-10-2023,6152,Electric Bike,514.13,4,Houston,895,Credit Card,62,Female
+167,27-04-2023,1105,Electric Bike,4012.24,4,Houston,569,Credit Card,20,Male
+168,31-07-2023,5200,Hybrid Bike,677.51,3,Chicago,147,Google Pay,28,Female
+169,15-01-2021,3917,Cruiser,1419.26,3,Houston,772,Debit Card,48,Female
+170,03-12-2020,1072,Hybrid Bike,1139.47,2,Los Angeles,561,Apple Pay,30,Female
+171,02-04-2023,8836,BMX,4691.31,1,Los Angeles,936,Credit Card,47,Male
+172,21-07-2022,8047,BMX,1383.75,3,Los Angeles,622,PayPal,53,Female
+173,25-12-2021,4943,Hybrid Bike,2950.48,2,Los Angeles,330,Cash,26,Female
+174,13-12-2023,2059,Hybrid Bike,2213.13,1,Los Angeles,420,Credit Card,55,Female
+175,08-08-2022,5856,Hybrid Bike,2991.29,4,New York,348,Debit Card,32,Female
+176,29-08-2020,2258,Electric Bike,4856.07,4,Houston,886,Credit Card,70,Male
+177,18-04-2020,8102,Electric Bike,4950.14,3,San Antonio,866,Debit Card,21,Female
+178,18-10-2020,8963,Cruiser,2053.54,2,San Antonio,715,Cash,50,Male
+179,05-01-2024,7085,Cruiser,3546.33,3,New York,768,PayPal,63,Female
+180,03-12-2023,3350,BMX,759.62,1,Chicago,115,Google Pay,59,Female
+181,02-09-2022,9205,BMX,1122.09,5,Phoenix,369,Credit Card,23,Male
+182,23-05-2022,6859,Road Bike,239.61,4,New York,919,PayPal,67,Male
+183,12-11-2022,2350,Folding Bike,1100.52,1,Chicago,284,Apple Pay,34,Female
+184,20-03-2021,1970,BMX,2147.41,4,Houston,710,Cash,26,Male
+185,04-11-2023,2723,Electric Bike,378.57,5,Houston,563,Credit Card,53,Male
+186,01-01-2023,8551,Folding Bike,3280.72,5,Phoenix,617,Cash,69,Female
+187,21-04-2021,5718,Mountain Bike,3544.5,4,Houston,210,Debit Card,20,Male
+188,26-07-2024,4935,Cruiser,469.95,3,Chicago,149,Apple Pay,19,Female
+189,27-07-2020,9907,Electric Bike,1179.72,2,Houston,204,Debit Card,52,Female
+190,05-01-2023,1167,BMX,3415.6,4,San Antonio,299,Credit Card,60,Male
+191,12-09-2020,1401,Road Bike,1938.62,2,Chicago,907,Cash,27,Male
+192,12-06-2023,8310,Mountain Bike,567.81,2,Chicago,401,Cash,68,Male
+193,17-04-2023,8290,Electric Bike,1086.97,2,San Antonio,363,Cash,63,Female
+194,06-11-2021,9046,Folding Bike,2652.05,5,Chicago,515,Debit Card,55,Male
+195,03-11-2020,3611,Electric Bike,4439.55,1,Chicago,731,PayPal,27,Female
+196,03-12-2023,7646,Hybrid Bike,2095.06,3,Philadelphia,583,Cash,22,Female
+197,20-10-2022,7991,Electric Bike,4153.72,5,San Antonio,614,Debit Card,22,Female
+198,29-09-2020,4283,Hybrid Bike,4225.44,2,Phoenix,118,Credit Card,62,Female
+199,30-10-2020,1606,Folding Bike,2034.75,4,Los Angeles,780,Cash,53,Male
+200,31-08-2022,5333,Mountain Bike,2101.32,5,Philadelphia,248,Debit Card,46,Male
