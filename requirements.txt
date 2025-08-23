@@ -1,0 +1,13 @@
+pandas>=2.2
+pyarrow>=15.0
+duckdb>=1.0.0
+plotly>=5.22
+matplotlib>=3.8
+numpy>=1.26
+jupyterlab>=4.2
+streamlit>=1.37
+black>=24.3
+ruff>=0.5.0
+pre-commit>=3.7
+pytest>=8.2
+python-dateutil>=2.9
