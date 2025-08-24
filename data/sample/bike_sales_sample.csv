@@ -1,0 +1,201 @@
+Sale_ID,Date,Customer_ID,Bike_Model,Price,Quantity,Store_Location,Salesperson_ID,Payment_Method,Customer_Age,Customer_Gender,Product_Category,Warehouse,Client_Type,Payment_Fee_Rate,Gross_Revenue,Payment_Fee,Net_Revenue,Year,Month
+46786,,3912,Cruiser,3525.01,3,Philadelphia,341,Debit Card,36,Female,Bikes,East,Retail,0.025,10575.03,264.37575000000004,10310.65425,,NaT
+34622,2024-05-01,2736,Road Bike,346.97,1,Phoenix,459,PayPal,66,Male,Bikes,East,Retail,0.0,346.97,0.0,346.97,2024.0,2024-05
+28725,2024-01-09,6638,Cruiser,504.66,5,San Antonio,697,PayPal,52,Female,Bikes,East,Retail,0.0,2523.3,0.0,2523.3,2024.0,2024-01
+30852,2023-10-12,8807,Road Bike,2010.77,2,Phoenix,279,Apple Pay,55,Female,Bikes,East,Retail,0.0,4021.54,0.0,4021.54,2023.0,2023-10
+53607,,3877,BMX,4977.45,5,Philadelphia,897,Cash,58,Female,Bikes,East,Retail,0.0,24887.25,0.0,24887.25,,NaT
+42085,,6546,Cruiser,3725.27,2,Phoenix,909,Credit Card,46,Male,Bikes,East,Retail,0.025,7450.54,186.2635,7264.2765,,NaT
+29409,,2922,Folding Bike,2632.07,5,Phoenix,422,Apple Pay,46,Male,Bikes,East,Retail,0.0,13160.35,0.0,13160.35,,NaT
+14526,,1711,Mountain Bike,1280.71,4,Philadelphia,320,Debit Card,26,Female,Bikes,East,Wholesale,0.025,5122.84,128.071,4994.769,,NaT
+29319,2023-08-07,3200,Mountain Bike,2345.52,3,Philadelphia,942,Apple Pay,54,Female,Bikes,East,Retail,0.0,7036.5599999999995,0.0,7036.5599999999995,2023.0,2023-08
+79274,,4868,Electric Bike,3213.54,3,San Antonio,466,Google Pay,54,Female,Bikes,East,Retail,0.0,9640.62,0.0,9640.62,,NaT
+56663,2020-10-05,3910,Mountain Bike,2792.34,2,Phoenix,560,PayPal,61,Female,Bikes,East,Wholesale,0.0,5584.68,0.0,5584.68,2020.0,2020-10
+69488,2021-05-05,1782,Folding Bike,1087.5,2,Chicago,202,Cash,40,Female,Bikes,East,Wholesale,0.0,2175.0,0.0,2175.0,2021.0,2021-05
+33644,,4552,Cruiser,582.24,5,Phoenix,722,Cash,18,Female,Bikes,East,Wholesale,0.0,2911.2,0.0,2911.2,,NaT
+54974,,7809,Hybrid Bike,4366.87,4,San Antonio,153,Credit Card,52,Female,Bikes,East,Retail,0.025,17467.48,436.687,17030.792999999998,,NaT
+7016,2020-12-05,1329,BMX,3497.64,4,Houston,422,Debit Card,61,Male,Bikes,East,Retail,0.025,13990.56,349.764,13640.796,2020.0,2020-12
+15139,2022-12-11,7539,Hybrid Bike,3747.23,5,Philadelphia,405,Credit Card,64,Male,Bikes,East,Retail,0.025,18736.15,468.40375000000006,18267.74625,2022.0,2022-12
+47083,2023-10-11,4351,Mountain Bike,3025.21,4,Los Angeles,210,Google Pay,45,Female,Bikes,East,Retail,0.0,12100.84,0.0,12100.84,2023.0,2023-10
+90072,,1484,BMX,3735.3,5,San Antonio,627,Credit Card,61,Male,Bikes,East,Wholesale,0.025,18676.5,466.9125,18209.5875,,NaT
+3207,,9853,Folding Bike,683.3,3,Philadelphia,770,PayPal,45,Male,Bikes,East,Wholesale,0.0,2049.8999999999996,0.0,2049.8999999999996,,NaT
+72225,,6645,Cruiser,3277.41,1,Los Angeles,144,Cash,27,Female,Bikes,East,Retail,0.0,3277.41,0.0,3277.41,,NaT
+84106,,2719,Hybrid Bike,2506.48,1,Chicago,385,Cash,45,Female,Bikes,East,Wholesale,0.0,2506.48,0.0,2506.48,,NaT
+58805,,7575,Hybrid Bike,4429.49,1,Phoenix,767,Cash,18,Male,Bikes,East,Retail,0.0,4429.49,0.0,4429.49,,NaT
+53721,,5219,Cruiser,237.88,1,San Antonio,163,Debit Card,34,Female,Bikes,East,Retail,0.025,237.88,5.947,231.933,,NaT
+94868,2021-07-07,1901,Folding Bike,1726.01,1,San Antonio,865,Credit Card,44,Male,Bikes,East,Wholesale,0.025,1726.01,43.15025,1682.85975,2021.0,2021-07
+39781,,2255,Electric Bike,359.12,5,Chicago,342,Apple Pay,57,Female,Bikes,East,Retail,0.0,1795.6,0.0,1795.6,,NaT
+69857,,2796,Hybrid Bike,3842.46,4,San Antonio,690,Debit Card,29,Female,Bikes,East,Retail,0.025,15369.84,384.246,14985.594,,NaT
+10670,,8942,Hybrid Bike,3312.65,5,Phoenix,763,Debit Card,40,Female,Bikes,East,Wholesale,0.025,16563.25,414.08125,16149.16875,,NaT
+87387,2024-06-05,7066,Road Bike,1576.36,1,San Antonio,322,PayPal,33,Male,Bikes,East,Retail,0.0,1576.36,0.0,1576.36,2024.0,2024-06
+65725,,2034,Mountain Bike,402.07,2,Chicago,507,PayPal,28,Male,Bikes,East,Retail,0.0,804.14,0.0,804.14,,NaT
+67173,2021-01-03,9730,BMX,3553.51,3,Chicago,976,Apple Pay,49,Female,Bikes,East,Wholesale,0.0,10660.53,0.0,10660.53,2021.0,2021-01
+8847,,2144,Hybrid Bike,4880.96,1,Philadelphia,604,Apple Pay,41,Male,Bikes,East,Wholesale,0.0,4880.96,0.0,4880.96,,NaT
+40500,,7549,BMX,2527.69,3,San Antonio,463,Google Pay,63,Female,Bikes,East,Wholesale,0.0,7583.07,0.0,7583.07,,NaT
+89893,2023-02-03,4538,Cruiser,3687.29,3,Phoenix,543,PayPal,55,Male,Bikes,East,Retail,0.0,11061.87,0.0,11061.87,2023.0,2023-02
+39254,,6670,Mountain Bike,4130.18,5,Houston,587,Google Pay,64,Male,Bikes,East,Retail,0.0,20650.9,0.0,20650.9,,NaT
+26306,,6957,Cruiser,1515.41,5,Houston,878,Debit Card,57,Female,Bikes,East,Retail,0.025,7577.05,189.42625,7387.62375,,NaT
+97693,,1339,Hybrid Bike,3497.01,5,Houston,542,Debit Card,19,Female,Bikes,East,Wholesale,0.025,17485.050000000003,437.1262500000001,17047.92375,,NaT
+62874,,2499,Cruiser,1988.18,4,Philadelphia,513,Cash,69,Female,Bikes,East,Retail,0.0,7952.72,0.0,7952.72,,NaT
+33016,2020-03-08,6088,Folding Bike,4462.59,4,Phoenix,494,Debit Card,67,Female,Bikes,East,Retail,0.025,17850.36,446.259,17404.101000000002,2020.0,2020-03
+4355,2020-01-10,4162,Folding Bike,651.1,4,Los Angeles,901,Debit Card,27,Female,Bikes,East,Retail,0.025,2604.4,65.11,2539.29,2020.0,2020-01
+58780,,8391,Folding Bike,4724.63,5,San Antonio,619,Cash,62,Male,Bikes,East,Retail,0.0,23623.15,0.0,23623.15,,NaT
+67637,2022-11-08,9238,Folding Bike,1697.03,1,Los Angeles,505,Apple Pay,18,Male,Bikes,East,Retail,0.0,1697.03,0.0,1697.03,2022.0,2022-11
+52945,,4152,Road Bike,4257.36,5,Philadelphia,415,Debit Card,68,Female,Bikes,East,Retail,0.025,21286.8,532.17,20754.63,,NaT
+53681,,4272,BMX,3113.77,4,Philadelphia,370,Apple Pay,51,Female,Bikes,East,Retail,0.0,12455.08,0.0,12455.08,,NaT
+74328,2024-02-02,7807,Cruiser,2066.2,2,Chicago,480,PayPal,42,Female,Bikes,East,Retail,0.0,4132.4,0.0,4132.4,2024.0,2024-02
+2043,,3315,Hybrid Bike,3670.37,1,Phoenix,856,PayPal,26,Female,Bikes,East,Retail,0.0,3670.37,0.0,3670.37,,NaT
+33108,2023-09-06,8400,Folding Bike,597.53,3,Los Angeles,570,Cash,30,Male,Bikes,East,Retail,0.0,1792.59,0.0,1792.59,2023.0,2023-09
+7527,2022-04-09,4263,BMX,620.51,2,Chicago,549,Cash,41,Male,Bikes,East,Retail,0.0,1241.02,0.0,1241.02,2022.0,2022-04
+72994,,8989,Folding Bike,1753.21,4,Los Angeles,431,Apple Pay,63,Male,Bikes,East,Retail,0.0,7012.84,0.0,7012.84,,NaT
+16430,,3993,Mountain Bike,3359.55,3,San Antonio,233,Apple Pay,52,Female,Bikes,East,Retail,0.0,10078.65,0.0,10078.65,,NaT
+60562,,1520,Cruiser,4188.66,1,Los Angeles,894,Google Pay,38,Female,Bikes,East,Wholesale,0.0,4188.66,0.0,4188.66,,NaT
+83318,2023-07-08,9427,Road Bike,2701.08,1,Houston,554,Debit Card,40,Male,Bikes,East,Wholesale,0.025,2701.08,67.527,2633.553,2023.0,2023-07
+35925,2020-05-04,1444,Road Bike,3950.8,3,Philadelphia,636,Credit Card,62,Male,Bikes,East,Retail,0.025,11852.4,296.31000000000006,11556.090000000002,2020.0,2020-05
+22954,,9062,Cruiser,3488.75,5,Chicago,283,Debit Card,44,Female,Bikes,East,Retail,0.025,17443.75,436.09375,17007.65625,,NaT
+47543,,5355,BMX,3137.96,3,Philadelphia,490,Debit Card,66,Male,Bikes,East,Retail,0.025,9413.88,235.34700000000004,9178.533,,NaT
+7437,,4235,Road Bike,2988.06,3,Philadelphia,915,Google Pay,40,Female,Bikes,East,Wholesale,0.0,8964.18,0.0,8964.18,,NaT
+62299,2021-01-05,5117,Hybrid Bike,563.05,1,Houston,621,PayPal,50,Male,Bikes,East,Retail,0.0,563.05,0.0,563.05,2021.0,2021-01
+41736,2022-03-10,5624,BMX,2754.09,2,Phoenix,971,Credit Card,24,Female,Bikes,East,Wholesale,0.025,5508.18,137.70450000000002,5370.4755000000005,2022.0,2022-03
+22601,2020-01-07,9478,Folding Bike,4841.13,4,Los Angeles,248,PayPal,42,Male,Bikes,East,Wholesale,0.0,19364.52,0.0,19364.52,2020.0,2020-01
+84513,2020-11-04,6985,Cruiser,3640.03,1,Phoenix,415,PayPal,65,Female,Bikes,East,Retail,0.0,3640.03,0.0,3640.03,2020.0,2020-11
+86419,,2173,Road Bike,3749.75,2,Phoenix,933,Google Pay,59,Male,Bikes,East,Retail,0.0,7499.5,0.0,7499.5,,NaT
+39754,2021-09-05,3267,Hybrid Bike,3964.81,2,Chicago,674,Debit Card,52,Female,Bikes,East,Retail,0.025,7929.62,198.2405,7731.3795,2021.0,2021-09
+24739,,8236,Cruiser,1551.68,5,Los Angeles,826,Cash,41,Male,Bikes,East,Wholesale,0.0,7758.400000000001,0.0,7758.400000000001,,NaT
+95945,2021-12-02,6911,Road Bike,1047.94,5,Philadelphia,825,Apple Pay,68,Female,Bikes,East,Retail,0.0,5239.700000000001,0.0,5239.700000000001,2021.0,2021-12
+7361,,1179,Mountain Bike,1810.17,3,Phoenix,438,Credit Card,38,Male,Bikes,East,Retail,0.025,5430.51,135.76275,5294.74725,,NaT
+46918,,8328,Folding Bike,3118.18,4,Phoenix,255,Debit Card,19,Female,Bikes,East,Retail,0.025,12472.72,311.818,12160.902,,NaT
+53968,,1235,Hybrid Bike,1676.74,4,Chicago,783,PayPal,64,Male,Bikes,East,Retail,0.0,6706.96,0.0,6706.96,,NaT
+97622,,4852,Hybrid Bike,2069.68,1,Philadelphia,140,Credit Card,49,Male,Bikes,East,Wholesale,0.025,2069.68,51.742,2017.938,,NaT
+30344,,1322,Cruiser,426.95,3,Houston,904,PayPal,48,Male,Bikes,East,Retail,0.0,1280.85,0.0,1280.85,,NaT
+36355,2021-10-08,6293,Cruiser,2047.5,2,Philadelphia,961,Google Pay,27,Female,Bikes,East,Wholesale,0.0,4095.0,0.0,4095.0,2021.0,2021-10
+90463,,3133,Hybrid Bike,1671.51,5,San Antonio,364,Cash,39,Female,Bikes,East,Retail,0.0,8357.55,0.0,8357.55,,NaT
+37824,,8101,BMX,2753.75,5,Houston,547,Apple Pay,51,Female,Bikes,East,Wholesale,0.0,13768.75,0.0,13768.75,,NaT
+38785,,9283,Road Bike,2311.6,2,Los Angeles,295,Cash,24,Female,Bikes,East,Retail,0.0,4623.2,0.0,4623.2,,NaT
+27782,2020-07-09,3695,Hybrid Bike,2962.37,1,San Antonio,909,Debit Card,28,Female,Bikes,East,Wholesale,0.025,2962.37,74.05925,2888.31075,2020.0,2020-07
+96535,,3143,Electric Bike,3295.85,1,Philadelphia,466,Credit Card,28,Female,Bikes,East,Wholesale,0.025,3295.85,82.39625000000001,3213.4537499999997,,NaT
+66532,,5876,Cruiser,1017.96,3,Philadelphia,210,Debit Card,41,Female,Bikes,East,Retail,0.025,3053.88,76.34700000000001,2977.533,,NaT
+82262,2022-01-03,5591,Cruiser,249.0,5,Phoenix,638,PayPal,22,Female,Bikes,East,Wholesale,0.0,1245.0,0.0,1245.0,2022.0,2022-01
+74085,2020-06-01,9360,Folding Bike,782.27,5,Chicago,632,Credit Card,34,Male,Bikes,East,Wholesale,0.025,3911.35,97.78375,3813.56625,2020.0,2020-06
+27113,2023-06-06,3668,Electric Bike,201.33,5,Philadelphia,166,PayPal,48,Female,Bikes,East,Retail,0.0,1006.65,0.0,1006.65,2023.0,2023-06
+54044,,8718,BMX,1205.77,1,Philadelphia,182,Cash,66,Female,Bikes,East,Retail,0.0,1205.77,0.0,1205.77,,NaT
+9574,,1350,Electric Bike,879.25,5,San Antonio,487,PayPal,68,Male,Bikes,East,Retail,0.0,4396.25,0.0,4396.25,,NaT
+63544,,7195,Mountain Bike,2976.4,2,San Antonio,159,Credit Card,55,Female,Bikes,East,Retail,0.025,5952.8,148.82000000000002,5803.9800000000005,,NaT
+33556,,2820,BMX,3420.44,4,Phoenix,438,Debit Card,33,Male,Bikes,East,Retail,0.025,13681.76,342.04400000000004,13339.716,,NaT
+5887,2022-09-03,2265,Folding Bike,4235.77,5,Philadelphia,310,PayPal,53,Female,Bikes,East,Retail,0.0,21178.85,0.0,21178.85,2022.0,2022-09
+98387,,6410,Road Bike,1845.0,3,San Antonio,117,PayPal,55,Male,Bikes,East,Wholesale,0.0,5535.0,0.0,5535.0,,NaT
+64618,,1903,Electric Bike,2394.87,2,Los Angeles,952,Debit Card,40,Male,Bikes,East,Retail,0.025,4789.74,119.7435,4669.9965,,NaT
+64304,,2204,Cruiser,1735.23,4,Houston,227,Credit Card,56,Female,Bikes,East,Retail,0.025,6940.92,173.52300000000002,6767.397,,NaT
+48041,2021-07-02,7841,Hybrid Bike,3779.31,2,Phoenix,686,PayPal,44,Female,Bikes,East,Retail,0.0,7558.62,0.0,7558.62,2021.0,2021-07
+74362,,9737,Cruiser,621.87,5,Los Angeles,674,PayPal,58,Male,Bikes,East,Retail,0.0,3109.35,0.0,3109.35,,NaT
+37811,2022-03-09,8661,Road Bike,1960.52,3,San Antonio,817,Cash,70,Male,Bikes,East,Wholesale,0.0,5881.5599999999995,0.0,5881.5599999999995,2022.0,2022-03
+86597,,3095,Road Bike,3523.63,4,Houston,318,Debit Card,67,Male,Bikes,East,Retail,0.025,14094.52,352.36300000000006,13742.157,,NaT
+77314,,7884,Mountain Bike,3677.78,3,Philadelphia,176,Credit Card,37,Female,Bikes,East,Retail,0.025,11033.34,275.8335,10757.5065,,NaT
+80739,,6723,Road Bike,2778.07,1,Los Angeles,650,Debit Card,27,Male,Bikes,East,Wholesale,0.025,2778.07,69.45175,2708.61825,,NaT
+5644,,2445,Cruiser,3623.49,5,Los Angeles,380,Cash,52,Female,Bikes,East,Retail,0.0,18117.449999999997,0.0,18117.449999999997,,NaT
+28199,,8633,BMX,3466.09,3,Chicago,792,Apple Pay,54,Female,Bikes,East,Retail,0.0,10398.27,0.0,10398.27,,NaT
+53947,,8767,Cruiser,2634.31,5,Philadelphia,290,Credit Card,60,Female,Bikes,East,Retail,0.025,13171.55,329.28875,12842.26125,,NaT
+37993,2023-10-05,7329,Road Bike,3807.24,3,Houston,376,Cash,53,Female,Bikes,East,Retail,0.0,11421.72,0.0,11421.72,2023.0,2023-10
+39168,,2453,Mountain Bike,3554.41,5,Houston,427,Google Pay,54,Male,Bikes,East,Retail,0.0,17772.05,0.0,17772.05,,NaT
+71828,,2278,Folding Bike,1641.25,3,Chicago,215,Cash,20,Female,Bikes,East,Retail,0.0,4923.75,0.0,4923.75,,NaT
+46225,,4897,Hybrid Bike,255.77,4,Chicago,265,Credit Card,61,Female,Bikes,East,Retail,0.025,1023.08,25.577,997.503,,NaT
+42111,2021-11-01,9169,Mountain Bike,4274.03,3,Los Angeles,608,PayPal,18,Female,Bikes,East,Retail,0.0,12822.09,0.0,12822.09,2021.0,2021-11
+81189,2024-05-06,5777,Mountain Bike,4755.68,3,New York,284,Apple Pay,49,Male,Bikes,North,Retail,0.0,14267.04,0.0,14267.04,2024.0,2024-05
+5859,2022-12-08,1544,Electric Bike,2627.1,5,New York,849,Google Pay,64,Female,Bikes,North,Retail,0.0,13135.5,0.0,13135.5,2022.0,2022-12
+10322,,6584,Road Bike,2215.06,3,New York,304,Google Pay,26,Male,Bikes,North,Retail,0.0,6645.18,0.0,6645.18,,NaT
+10375,2022-06-07,7013,Cruiser,3341.04,4,New York,534,Apple Pay,63,Male,Bikes,North,Retail,0.0,13364.16,0.0,13364.16,2022.0,2022-06
+55298,2021-11-08,5840,Folding Bike,467.43,3,New York,459,Credit Card,32,Female,Bikes,North,Wholesale,0.025,1402.29,35.05725,1367.23275,2021.0,2021-11
+87042,,5631,Hybrid Bike,805.1,5,New York,899,Cash,55,Female,Bikes,North,Retail,0.0,4025.5,0.0,4025.5,,NaT
+39919,,4804,Cruiser,3223.26,2,New York,174,Credit Card,40,Female,Bikes,North,Retail,0.025,6446.52,161.163,6285.357,,NaT
+60378,,8731,Folding Bike,3221.61,3,New York,518,Apple Pay,50,Male,Bikes,North,Wholesale,0.0,9664.83,0.0,9664.83,,NaT
+58459,,8592,Mountain Bike,2561.38,5,New York,360,Google Pay,57,Male,Bikes,North,Retail,0.0,12806.9,0.0,12806.9,,NaT
+71073,,5901,Electric Bike,3975.14,3,New York,475,PayPal,68,Female,Bikes,North,Retail,0.0,11925.42,0.0,11925.42,,NaT
+21691,,2893,Mountain Bike,4198.82,2,New York,708,Credit Card,69,Male,Bikes,North,Retail,0.025,8397.64,209.941,8187.699,,NaT
+21797,2020-12-01,8226,BMX,1946.88,2,New York,103,Google Pay,59,Male,Bikes,North,Retail,0.0,3893.76,0.0,3893.76,2020.0,2020-12
+88350,2020-04-06,7807,BMX,807.03,3,New York,876,PayPal,42,Male,Bikes,North,Retail,0.0,2421.09,0.0,2421.09,2020.0,2020-04
+2473,2024-03-03,8772,Mountain Bike,4331.67,1,New York,343,Google Pay,68,Male,Bikes,North,Retail,0.0,4331.67,0.0,4331.67,2024.0,2024-03
+68710,,6907,Cruiser,1670.99,5,New York,201,Credit Card,39,Male,Bikes,North,Retail,0.025,8354.95,208.87375000000003,8146.076250000001,,NaT
+10090,,7711,Folding Bike,4308.19,2,New York,655,Debit Card,67,Male,Bikes,North,Retail,0.025,8616.38,215.4095,8400.9705,,NaT
+94773,2023-10-08,1227,BMX,2484.09,1,New York,376,Debit Card,58,Female,Bikes,North,Retail,0.025,2484.09,62.102250000000005,2421.98775,2023.0,2023-10
+38810,,3097,Electric Bike,2381.26,4,New York,624,Google Pay,21,Female,Bikes,North,Retail,0.0,9525.04,0.0,9525.04,,NaT
+21292,2020-01-06,2445,Cruiser,3668.81,1,New York,242,Debit Card,53,Male,Bikes,North,Retail,0.025,3668.81,91.72025,3577.08975,2020.0,2020-01
+97303,,8732,BMX,974.53,5,New York,399,Google Pay,48,Male,Bikes,North,Retail,0.0,4872.65,0.0,4872.65,,NaT
+35911,,9259,BMX,939.77,3,New York,943,Debit Card,21,Female,Bikes,North,Retail,0.025,2819.31,70.48275,2748.82725,,NaT
+71479,,6652,Road Bike,3716.75,2,New York,423,Apple Pay,49,Male,Bikes,North,Retail,0.0,7433.5,0.0,7433.5,,NaT
+96965,,1213,Hybrid Bike,3547.33,2,New York,902,Google Pay,50,Female,Bikes,North,Retail,0.0,7094.66,0.0,7094.66,,NaT
+99323,,9191,Hybrid Bike,2057.91,4,New York,569,Apple Pay,56,Male,Bikes,North,Retail,0.0,8231.64,0.0,8231.64,,NaT
+90085,2022-02-10,3388,Hybrid Bike,4451.35,3,New York,597,PayPal,70,Male,Bikes,North,Retail,0.0,13354.05,0.0,13354.05,2022.0,2022-02
+89894,,4740,Hybrid Bike,2890.73,5,New York,307,Google Pay,23,Female,Bikes,North,Retail,0.0,14453.65,0.0,14453.65,,NaT
+15204,2022-12-12,1068,Folding Bike,2608.46,1,New York,751,Apple Pay,65,Female,Bikes,North,Retail,0.0,2608.46,0.0,2608.46,2022.0,2022-12
+32365,,3698,Road Bike,2222.66,4,New York,962,Apple Pay,30,Female,Bikes,North,Retail,0.0,8890.64,0.0,8890.64,,NaT
+86652,,6452,Road Bike,4117.6,5,New York,453,PayPal,26,Male,Bikes,North,Retail,0.0,20588.0,0.0,20588.0,,NaT
+50634,,9170,Electric Bike,220.93,2,New York,503,Apple Pay,25,Male,Bikes,North,Retail,0.0,441.86,0.0,441.86,,NaT
+54049,,4754,Road Bike,3577.09,2,New York,917,Apple Pay,23,Female,Bikes,North,Wholesale,0.0,7154.18,0.0,7154.18,,NaT
+23319,2020-01-07,2866,BMX,529.85,4,New York,607,Cash,39,Male,Bikes,North,Retail,0.0,2119.4,0.0,2119.4,2020.0,2020-01
+57458,,4426,Hybrid Bike,1990.9,4,New York,368,Google Pay,49,Female,Bikes,North,Wholesale,0.0,7963.6,0.0,7963.6,,NaT
+24752,,3504,BMX,4560.05,1,New York,127,Debit Card,33,Male,Bikes,North,Wholesale,0.025,4560.05,114.00125,4446.04875,,NaT
+4099,2021-10-02,6726,Road Bike,2436.82,4,New York,927,Google Pay,51,Female,Bikes,North,Retail,0.0,9747.28,0.0,9747.28,2021.0,2021-10
+67139,2023-06-09,2683,Electric Bike,3477.15,4,New York,140,Cash,40,Female,Bikes,North,Retail,0.0,13908.6,0.0,13908.6,2023.0,2023-06
+19729,,4108,Cruiser,848.72,3,New York,476,Apple Pay,37,Male,Bikes,North,Retail,0.0,2546.16,0.0,2546.16,,NaT
+52378,,4177,Electric Bike,1635.7,5,New York,615,Debit Card,57,Female,Bikes,North,Wholesale,0.025,8178.5,204.4625,7974.0375,,NaT
+46963,,5975,Mountain Bike,438.59,5,New York,723,Google Pay,36,Female,Bikes,North,Retail,0.0,2192.95,0.0,2192.95,,NaT
+23806,,5386,Hybrid Bike,2538.9,1,New York,894,Google Pay,66,Male,Bikes,North,Wholesale,0.0,2538.9,0.0,2538.9,,NaT
+27206,2020-09-05,3267,Mountain Bike,2688.78,5,New York,289,PayPal,24,Female,Bikes,North,Wholesale,0.0,13443.9,0.0,13443.9,2020.0,2020-09
+69809,2020-10-03,8308,Hybrid Bike,1529.63,2,New York,935,Apple Pay,28,Female,Bikes,North,Retail,0.0,3059.26,0.0,3059.26,2020.0,2020-10
+7302,,5719,Road Bike,3840.9,2,New York,697,Google Pay,46,Male,Bikes,North,Wholesale,0.0,7681.8,0.0,7681.8,,NaT
+80842,,9388,Folding Bike,2366.41,4,New York,144,Apple Pay,40,Male,Bikes,North,Wholesale,0.0,9465.64,0.0,9465.64,,NaT
+68683,2024-07-03,6617,Road Bike,1007.13,2,New York,364,Cash,45,Male,Bikes,North,Wholesale,0.0,2014.26,0.0,2014.26,2024.0,2024-07
+70895,2023-08-11,6809,Road Bike,3046.37,1,New York,884,PayPal,68,Female,Bikes,North,Retail,0.0,3046.37,0.0,3046.37,2023.0,2023-08
+3226,2023-04-11,9057,Mountain Bike,3983.64,3,New York,139,Google Pay,28,Male,Bikes,North,Wholesale,0.0,11950.92,0.0,11950.92,2023.0,2023-04
+26123,,3932,Folding Bike,4533.35,1,New York,638,Cash,31,Male,Bikes,North,Retail,0.0,4533.35,0.0,4533.35,,NaT
+37337,,4402,Cruiser,1762.9,5,New York,175,Debit Card,20,Male,Bikes,North,Retail,0.025,8814.5,220.3625,8594.1375,,NaT
+21178,,7847,Cruiser,4428.73,4,New York,684,PayPal,19,Female,Bikes,North,Retail,0.0,17714.92,0.0,17714.92,,NaT
+1995,2023-12-08,3397,Electric Bike,1452.06,5,New York,171,Credit Card,24,Male,Bikes,North,Wholesale,0.025,7260.299999999999,181.5075,7078.7925,2023.0,2023-12
+13913,2021-12-10,1101,Road Bike,2626.53,3,New York,792,Google Pay,23,Male,Bikes,North,Retail,0.0,7879.59,0.0,7879.59,2021.0,2021-12
+68191,2023-07-12,3249,Mountain Bike,3184.71,1,New York,245,Credit Card,47,Female,Bikes,North,Retail,0.025,3184.71,79.61775,3105.09225,2023.0,2023-07
+7881,,5647,Folding Bike,4307.81,3,New York,583,Debit Card,50,Female,Bikes,North,Wholesale,0.025,12923.43,323.08575,12600.34425,,NaT
+94308,2023-01-05,9034,Folding Bike,2843.03,3,New York,193,PayPal,33,Female,Bikes,North,Retail,0.0,8529.09,0.0,8529.09,2023.0,2023-01
+93095,2024-10-07,9283,Road Bike,1750.26,5,New York,824,Cash,69,Male,Bikes,North,Wholesale,0.0,8751.3,0.0,8751.3,2024.0,2024-10
+78562,,9352,Road Bike,1579.01,1,New York,377,Cash,68,Female,Bikes,North,Retail,0.0,1579.01,0.0,1579.01,,NaT
+20877,,7488,BMX,1188.69,3,New York,432,PayPal,59,Male,Bikes,North,Wholesale,0.0,3566.07,0.0,3566.07,,NaT
+3676,2022-11-02,1488,Cruiser,4804.75,2,New York,140,Debit Card,67,Male,Bikes,North,Wholesale,0.025,9609.5,240.2375,9369.2625,2022.0,2022-11
+91258,,9850,Road Bike,3892.18,3,New York,231,Debit Card,18,Male,Bikes,North,Retail,0.025,11676.54,291.9135,11384.626499999998,,NaT
+52033,2024-04-08,5833,Cruiser,4836.22,2,New York,613,Cash,23,Male,Bikes,North,Retail,0.0,9672.44,0.0,9672.44,2024.0,2024-04
+8691,2023-08-11,4781,Electric Bike,2855.2,5,New York,829,Debit Card,24,Male,Bikes,North,Retail,0.025,14276.0,356.90000000000003,13919.1,2023.0,2023-08
+30351,,5553,Hybrid Bike,2420.12,2,New York,390,Credit Card,45,Female,Bikes,North,Wholesale,0.025,4840.24,121.006,4719.2339999999995,,NaT
+74257,,6435,Hybrid Bike,3860.55,5,New York,792,Google Pay,46,Female,Bikes,North,Wholesale,0.0,19302.75,0.0,19302.75,,NaT
+80619,,2450,BMX,4350.97,1,New York,144,Credit Card,64,Female,Bikes,North,Retail,0.025,4350.97,108.77425,4242.19575,,NaT
+7908,,1274,Electric Bike,1693.29,2,New York,194,Cash,19,Female,Bikes,North,Retail,0.0,3386.58,0.0,3386.58,,NaT
+55058,,3904,Folding Bike,3985.47,2,New York,119,Cash,40,Female,Bikes,North,Retail,0.0,7970.94,0.0,7970.94,,NaT
+92129,,9636,Road Bike,3503.44,1,New York,476,Cash,59,Male,Bikes,North,Wholesale,0.0,3503.44,0.0,3503.44,,NaT
+76238,,4539,Electric Bike,4060.51,1,New York,211,Apple Pay,38,Female,Bikes,North,Wholesale,0.0,4060.51,0.0,4060.51,,NaT
+28480,,2863,Mountain Bike,3286.72,4,New York,413,Credit Card,43,Male,Bikes,North,Retail,0.025,13146.88,328.672,12818.208,,NaT
+92711,,2892,BMX,1073.41,4,New York,129,Apple Pay,52,Male,Bikes,North,Retail,0.0,4293.64,0.0,4293.64,,NaT
+79449,2022-09-12,5026,Folding Bike,3827.85,2,New York,851,Google Pay,43,Female,Bikes,North,Retail,0.0,7655.7,0.0,7655.7,2022.0,2022-09
+89930,2022-12-12,3756,Road Bike,4857.44,4,New York,489,PayPal,34,Male,Bikes,North,Retail,0.0,19429.76,0.0,19429.76,2022.0,2022-12
+28348,2024-10-01,1683,BMX,639.85,1,New York,318,Cash,54,Male,Bikes,North,Wholesale,0.0,639.85,0.0,639.85,2024.0,2024-10
+81313,2024-09-08,1143,Folding Bike,2739.59,4,New York,489,Apple Pay,63,Female,Bikes,North,Wholesale,0.0,10958.36,0.0,10958.36,2024.0,2024-09
+53382,2024-06-09,9875,Mountain Bike,1111.07,5,New York,683,PayPal,24,Male,Bikes,North,Wholesale,0.0,5555.349999999999,0.0,5555.349999999999,2024.0,2024-06
+98774,,3973,Electric Bike,4381.83,4,New York,258,Cash,62,Male,Bikes,North,Retail,0.0,17527.32,0.0,17527.32,,NaT
+18037,,9084,Mountain Bike,2436.39,2,New York,728,Debit Card,21,Female,Bikes,North,Wholesale,0.025,4872.78,121.8195,4750.9605,,NaT
+82001,,2296,Hybrid Bike,1706.89,3,New York,793,Credit Card,70,Male,Bikes,North,Retail,0.025,5120.67,128.01675,4992.65325,,NaT
+92022,2023-08-04,6037,Electric Bike,3643.65,1,New York,829,Credit Card,23,Female,Bikes,North,Retail,0.025,3643.65,91.09125,3552.55875,2023.0,2023-08
+88495,,9375,BMX,2108.71,1,New York,741,Cash,61,Male,Bikes,North,Wholesale,0.0,2108.71,0.0,2108.71,,NaT
+78331,,6437,Hybrid Bike,2407.04,1,New York,948,Credit Card,46,Female,Bikes,North,Retail,0.025,2407.04,60.176,2346.864,,NaT
+76880,,6513,Folding Bike,4903.62,5,New York,759,Debit Card,43,Female,Bikes,North,Retail,0.025,24518.1,612.9525,23905.1475,,NaT
+10095,,3134,Folding Bike,4290.9,2,New York,171,Cash,42,Female,Bikes,North,Wholesale,0.0,8581.8,0.0,8581.8,,NaT
+88499,,5003,Hybrid Bike,839.08,3,New York,528,Credit Card,37,Female,Bikes,North,Wholesale,0.025,2517.24,62.93100000000001,2454.309,,NaT
+81465,2024-09-06,2462,Electric Bike,2376.47,1,New York,335,Cash,38,Female,Bikes,North,Retail,0.0,2376.47,0.0,2376.47,2024.0,2024-09
+57922,2021-06-04,4810,Hybrid Bike,4307.58,3,New York,867,Cash,70,Male,Bikes,North,Wholesale,0.0,12922.74,0.0,12922.74,2021.0,2021-06
+23383,,9922,Cruiser,366.15,4,New York,798,Debit Card,46,Female,Bikes,North,Wholesale,0.025,1464.6,36.615,1427.985,,NaT
+37667,,4942,Road Bike,4810.16,2,New York,355,Debit Card,40,Female,Bikes,North,Wholesale,0.025,9620.32,240.508,9379.812,,NaT
+64786,2024-12-06,7199,Road Bike,3575.92,3,New York,861,PayPal,35,Female,Bikes,North,Wholesale,0.0,10727.76,0.0,10727.76,2024.0,2024-12
+46263,,8600,Electric Bike,857.3,1,New York,273,Apple Pay,32,Female,Bikes,North,Retail,0.0,857.3,0.0,857.3,,NaT
+85472,,7126,Mountain Bike,470.91,1,New York,204,Debit Card,55,Female,Bikes,North,Retail,0.025,470.91,11.772750000000002,459.13725,,NaT
+15474,,1843,Folding Bike,4703.63,4,New York,216,Google Pay,24,Female,Bikes,North,Wholesale,0.0,18814.52,0.0,18814.52,,NaT
+97242,,2721,Road Bike,2334.95,1,New York,172,PayPal,46,Female,Bikes,North,Wholesale,0.0,2334.95,0.0,2334.95,,NaT
+32056,2023-03-06,7343,Electric Bike,717.58,2,New York,177,Cash,31,Male,Bikes,North,Retail,0.0,1435.16,0.0,1435.16,2023.0,2023-03
+25907,,5672,Cruiser,2290.18,3,New York,131,Debit Card,36,Male,Bikes,North,Retail,0.025,6870.539999999999,171.7635,6698.776499999999,,NaT
+9115,2023-05-07,9977,Electric Bike,306.55,3,New York,642,Credit Card,70,Male,Bikes,North,Retail,0.025,919.65,22.991250000000004,896.65875,2023.0,2023-05
+59120,,9876,Folding Bike,4906.95,1,New York,571,Google Pay,56,Female,Bikes,North,Retail,0.0,4906.95,0.0,4906.95,,NaT
+39248,2023-06-10,2932,Cruiser,4275.86,2,New York,698,Google Pay,34,Female,Bikes,North,Retail,0.0,8551.72,0.0,8551.72,2023.0,2023-06
+31138,,1808,Cruiser,2287.22,1,New York,696,Credit Card,28,Female,Bikes,North,Retail,0.025,2287.22,57.180499999999995,2230.0395,,NaT
