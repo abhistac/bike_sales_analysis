@@ -3,7 +3,7 @@
 [![Streamlit App](https://img.shields.io/badge/Streamlit-Live_App-brightgreen)](https://bikesalesanalysis-hrmyw3wkmeph4srfmctu7m.streamlit.app/)
 [![CI](https://github.com/abhistac/bike_sales_analysis/actions/workflows/ci.yml/badge.svg)](https://github.com/abhistac/bike_sales_analysis/actions/workflows/ci.yml)
 
-A portfolio project analyzing sales performance, customer segments, payment methods, warehouse performance, and product line profitability.
+A project analyzing sales performance, customer segments, payment methods, warehouse performance, and product line profitability.
 
 **Stack:** Python (pandas), DuckDB (SQL), Plotly/Matplotlib, Streamlit dashboard.
 
