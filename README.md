@@ -21,3 +21,52 @@ A portfolio project analyzing sales performance, customer segments, payment meth
      ```bash
      python -m src.etl.enrich
      ```
+
+## Features
+
+- **KPIs**
+  - Total Gross Revenue
+  - Total Net Revenue
+  - Orders
+  - Payment Fees % of Gross
+  - Top Bike Model & Revenue
+- **Visuals**
+  - Monthly Sales Trends (Gross vs Net)
+  - Product Analysis (Bike Models, quantities on bars)
+  - Revenue by City (fixed axis range)
+  - Revenue by Warehouse
+  - Retail vs Wholesale by Payment Method
+- **Extras**
+  - Export filtered data as CSV
+  - Continuous ingest with DuckDB (append + dedup)
+  - Clean code with pre-commit hooks (Black, Ruff)
+
+## How to Run
+
+1. Create a virtual environment and install requirements:
+   ```bash
+   python -m venv .venv
+   source .venv/bin/activate
+   pip install -r requirements.txt
+   ```
+
+2. Run enrichment to build processed dataset and DuckDB:
+   ```bash
+   python -m src.etl.enrich
+   ```
+
+3. Launch the Streamlit app:
+   ```bash
+   streamlit run app/streamlit_app.py
+   ```
+
+## Screenshots
+
+### KPI Strip
+![KPI Strip](reports/figs/streamlit_kpis.png)
+
+### Trends
+![Trends](reports/figs/streamlit_trends.png)
+
+### Product Analysis
+![Product Analysis](reports/figs/streamlit_products.png)
