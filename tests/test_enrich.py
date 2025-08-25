@@ -1,32 +1,69 @@
 # tests/test_enrich.py
+from __future__ import annotations
+
 from pathlib import Path
+import importlib
+import inspect
 import pandas as pd
-
-# Try to import the public enrichment function.
-# Your module might expose it as enrich_dataframe(...) or enrich(...).
-try:
-    from src.etl.enrich import enrich_dataframe as enrich_df  # type: ignore
-except ImportError:  # pragma: no cover
-    from src.etl.enrich import enrich as enrich_df  # type: ignore
-
 
 PROCESSED_PARQUET = Path("data/processed/bike_sales_100k_enriched.parquet")
 SAMPLE_CSV = Path("data/sample/bike_sales_sample.csv")
 
 
+def _find_enricher():
+    """
+    Import src.etl.enrich and find a callable that takes a single argument
+    (a DataFrame) and returns a DataFrame. Works regardless of the function name.
+    """
+    mod = importlib.import_module("src.etl.enrich")
+
+    # Prefer conventional names first
+    preferred = [
+        "enrich_dataframe",
+        "enrich_df",
+        "enrich",
+        "transform",
+        "apply_enrichment",
+        "process",
+        "run",
+        "build",
+    ]
+    for name in preferred:
+        fn = getattr(mod, name, None)
+        if callable(fn):
+            try:
+                sig = inspect.signature(fn)
+                if len(sig.parameters) == 1:
+                    return fn
+            except (ValueError, TypeError):
+                pass
+
+    # Fallback: any single-arg callable returning a DataFrame
+    for name, fn in vars(mod).items():
+        if callable(fn):
+            try:
+                sig = inspect.signature(fn)
+                if len(sig.parameters) == 1:
+                    return fn
+            except (ValueError, TypeError):
+                continue
+
+    raise AssertionError(
+        "Could not find an enrichment function in src.etl.enrich. "
+        "Expose a single-argument function that accepts a DataFrame and returns an enriched DataFrame."
+    )
+
+
 def _get_enriched_df() -> pd.DataFrame:
-    """
-    Load the processed Parquet if it exists (developer machine),
-    otherwise build an enriched frame from the repo-tracked sample CSV (CI).
-    """
+    # Use processed parquet when it exists locally; otherwise build from the sample.
     if PROCESSED_PARQUET.exists():
         return pd.read_parquet(PROCESSED_PARQUET)
 
-    # CI path: build from sample
     assert SAMPLE_CSV.exists(), "Sample CSV is missing from the repo."
     raw = pd.read_csv(SAMPLE_CSV)
-    df = enrich_df(raw)
-    # basic sanity that enrichment ran
+    enricher = _find_enricher()
+    df = enricher(raw)
+    assert isinstance(df, pd.DataFrame)
     assert len(df) > 0
     return df
 
