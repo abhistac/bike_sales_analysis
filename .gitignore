@@ -1,5 +1,4 @@
 # Created by venv; see https://docs.python.org/3/library/venv.html
-*
 # venv & caches
 .venv/
 __pycache__/
@@ -28,3 +27,12 @@ data/processed/sales.duckdb
 
 # Python bytecode
 *.pyc
+
+# Ignore all notebooks by default
+notebooks/*
+# But keep notebook docs if needed
+!notebooks/README.md
+
+# Ignore all of app/ except the Streamlit app entrypoint
+app/*
+!app/streamlit_app.py
