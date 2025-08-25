@@ -1,0 +1,4 @@
+Orders: 100,000
+Total Gross Revenue: $778,434,234.95
+Total Net Revenue:   $771,924,146.96
+Avg Order Size (Net): $7,719.24

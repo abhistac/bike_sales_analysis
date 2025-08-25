@@ -356,7 +356,10 @@ with col2:
         )
         if len(wh):
             fig = px.bar(
-                wh, x="Warehouse", y="Net_Revenue", color_discrete_sequence=[COLOR_WAREHOUSE]
+                wh,
+                x="Warehouse",
+                y="Net_Revenue",
+                color_discrete_sequence=[COLOR_WAREHOUSE],
             )
             fig.update_layout(xaxis_title=None, yaxis_title="Net Revenue")
             money_tickformat(fig)

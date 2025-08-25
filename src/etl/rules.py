@@ -85,7 +85,20 @@ REGION_KEYWORDS = {
         "NH",
         "ME",
     ],
-    "North": [" IL", " MI", " WI", " MN", " ND", " SD", " IA", " IN", " OH", " MO", "KS", "NE"],
+    "North": [
+        " IL",
+        " MI",
+        " WI",
+        " MN",
+        " ND",
+        " SD",
+        " IA",
+        " IN",
+        " OH",
+        " MO",
+        "KS",
+        "NE",
+    ],
     "South": [" TX", " OK", " LA", " AR", " MS", " AL", " TN", " KY"],
 }
 
