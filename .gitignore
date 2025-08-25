@@ -1,17 +1,30 @@
-# venv & python
+# Created by venv; see https://docs.python.org/3/library/venv.html
+*
+# venv & caches
 .venv/
 __pycache__/
-*.pyc
+.pytest_cache/
+.ruff_cache/
 
-# notebooks
-.ipynb_checkpoints/
+# data: keep only sample and screenshots
+data/raw/
+data/processed/
+!data/sample/
+data/sample/*
+!data/sample/bike_sales_sample.csv
 
-# data
-data/raw/*
-!data/raw/.gitkeep
-data/processed/*
-!data/processed/.gitkeep
+# duckdb database
+data/processed/sales.duckdb
+
+# excel temp files
+~$*.xlsx
 
 # OS/editor
 .DS_Store
 .vscode/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Python bytecode
+*.pyc
