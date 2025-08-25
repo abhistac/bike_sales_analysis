@@ -36,3 +36,9 @@ notebooks/*
 # Ignore all of app/ except the Streamlit app entrypoint
 app/*
 !app/streamlit_app.py
+
+# reports: keep generated docs and screenshots
+reports/figs/*
+!reports/figs/streamlit_kpis.png
+!reports/figs/streamlit_products.png
+!reports/figs/streamlit_trends.png
