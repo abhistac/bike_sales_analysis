@@ -18,4 +18,4 @@ jobs:
       - name: Style (black --check)
         run: black --check .
       - name: Tests
-        run: pytest -q
+        run: PYTHONPATH=. pytest -q
