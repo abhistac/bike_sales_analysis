@@ -1,82 +1,106 @@
-# Bike Sales Analysis
+# Bike Sales Analytics
 
 [![Streamlit App](https://img.shields.io/badge/Streamlit-Live_App-brightgreen)](https://bikesalesanalysis-hrmyw3wkmeph4srfmctu7m.streamlit.app/)
 [![CI](https://github.com/abhistac/bike_sales_analysis/actions/workflows/ci.yml/badge.svg)](https://github.com/abhistac/bike_sales_analysis/actions/workflows/ci.yml)
 
-A project analyzing sales performance, customer segments, payment methods, warehouse performance, and product line profitability.
+End-to-end sales analytics platform on 100K+ bike sales records. DuckDB for in-process SQL analytics, automated ETL with deduplication, pre-commit code quality hooks, GitHub Actions CI, and a live Streamlit dashboard.
 
-**Stack:** Python (pandas), DuckDB (SQL), Plotly/Matplotlib, Streamlit dashboard.
+**[→ Live Streamlit App](https://bikesalesanalysis-hrmyw3wkmeph4srfmctu7m.streamlit.app/)**
 
-## Goals
-- Compute **Net Revenue** after payment fees
-- Compare **Retail vs Wholesale**
-- Analyze **Payment Method** impact and **Warehouse** performance
-- Visualize **time-series revenue trends**
+---
 
-## Data
+## What it does
 
-- Full dataset (`data/raw/` and `data/processed/`) is ignored in GitHub to keep the repo lightweight.
-- A **sample dataset** (`data/sample/bike_sales_sample.csv`) with ~500 rows is included for demo/reproducibility.
-- To reproduce full results:
-  1. Download the [100k Bike Sales dataset from Kaggle](https://www.kaggle.com/datasets/jayavarman/bike-sales-data-of-100k/data)
-  2. Place it in `data/raw/`
-  3. Run the ETL script:
-     ```bash
-     python -m src.etl.enrich
-     ```
+Takes raw bike sales data and turns it into a live, interactive analytics platform:
 
-## Features
+- **Net Revenue analysis** — gross revenue minus payment processing fees by method
+- **Retail vs Wholesale comparison** — order volume and revenue per order by channel
+- **Warehouse performance** — East vs North throughput and revenue contribution
+- **Product line profitability** — margin analysis across bike models
+- **Time-series trends** — monthly gross vs net revenue with exportable filtered data
 
-- **KPIs**
-  - Total Gross Revenue
-  - Total Net Revenue
-  - Orders
-  - Payment Fees % of Gross
-  - Top Bike Model & Revenue
-- **Visuals**
-  - Monthly Sales Trends (Gross vs Net)
-  - Product Analysis (Bike Models, quantities on bars)
-  - Revenue by City
-  - Revenue by Warehouse
-  - Retail vs Wholesale by Payment Method
-- **Extras**
-  - Export filtered data as CSV
-  - Continuous ingest with DuckDB (append + dedup)
-  - Clean code with pre-commit hooks (Black, Ruff)
+---
 
-## Key Insights
+## Key findings
 
-- Hybrid Bikes contributed the highest revenue share (~25%).
-- Credit Card was the most popular payment method, but also incurred the highest fees.
-- The East warehouse consistently outperformed the North warehouse.
-- Retail customers generated more orders, but wholesale clients contributed higher revenue per order.
+- Hybrid Bikes contributed ~25% of total revenue — highest share of any product line
+- Credit Card was the most popular payment method but incurred the highest fee burden
+- East warehouse consistently outperformed North on both order volume and revenue
+- Wholesale customers generated fewer orders but higher revenue per order than retail
 
-## How to Run
+---
 
-1. Create a virtual environment and install requirements:
-   ```bash
-   python -m venv .venv
-   source .venv/bin/activate
-   pip install -r requirements.txt
-   ```
+## Architecture
 
-2. Run enrichment to build processed dataset and DuckDB:
-   ```bash
-   python -m src.etl.enrich
-   ```
+```
+Raw CSV (Kaggle, 100K rows)
+         │
+         ▼
+┌──────────────────────┐
+│  src/etl/enrich.py   │  Clean, calculate net revenue, dedup, load to DuckDB
+└────────┬─────────────┘
+         │
+         ▼
+┌──────────────────────┐
+│  DuckDB (local)      │  In-process OLAP — fast analytical SQL without a server
+└────────┬─────────────┘
+         │
+         ▼
+┌──────────────────────┐
+│  app/streamlit_app   │  KPI strip · Trends · Products · Warehouses · Export
+└──────────────────────┘
 
-3. Launch the Streamlit app:
-   ```bash
-   streamlit run app/streamlit_app.py
-   ```
+CI: GitHub Actions runs tests on every push
+Code quality: pre-commit (Black + Ruff) on every commit
+```
 
-## Screenshots
+---
 
-### KPI Strip
-![KPI Strip](reports/figs/streamlit_kpis.png)
+## Quick start
 
-### Trends
+```bash
+git clone https://github.com/abhistac/bike_sales_analysis.git
+cd bike_sales_analysis
+
+python -m venv .venv && source .venv/bin/activate
+pip install -r requirements.txt
+
+# Download dataset from Kaggle:
+# https://www.kaggle.com/datasets/jayavarman/bike-sales-data-of-100k
+# Place in data/raw/
+
+python -m src.etl.enrich       # Build DuckDB + processed dataset
+streamlit run app/streamlit_app.py
+```
+
+---
+
+## Dashboard screenshots
+
+### KPI strip
+![KPIs](reports/figs/streamlit_kpis.png)
+
+### Revenue trends
 ![Trends](reports/figs/streamlit_trends.png)
 
-### Product Analysis
-![Product Analysis](reports/figs/streamlit_products.png)
+### Product analysis
+![Products](reports/figs/streamlit_products.png)
+
+---
+
+## Stack
+
+Python · DuckDB · Streamlit · Plotly · Pandas · GitHub Actions · pre-commit (Black + Ruff) · pytest
+
+---
+
+## Why DuckDB instead of Pandas for analytics?
+
+DuckDB runs SQL directly on Parquet and CSV files in-process — no database server needed, no data movement, faster aggregations on large files than Pandas groupby. For an analytics workload on 100K+ rows with frequent aggregations by multiple dimensions, it's meaningfully faster and the SQL is easier to read and maintain than chained Pandas operations.
+
+---
+
+## Author
+
+**Abhista Atchutuni** — AI & Data Engineer
+[linkedin.com/in/abhistac](https://linkedin.com/in/abhistac) · [abhistaca@gmail.com](mailto:abhistaca@gmail.com) · [abhistac.github.io](https://abhistac.github.io)
